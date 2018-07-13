@@ -28,9 +28,9 @@ public class aktivitetFinal {
             							"Ange kön",
             JOptionPane.YES_NO_CANCEL_OPTION,
             JOptionPane.QUESTION_MESSAGE,
-            null,//do not use a custom Icon
-            kön,//the titles of buttons
-            kön[1]);//default button title
+            null,
+            kön,//namnen på knapparna
+            kön[1]);//standard namn på knapp
             	if (x == 0) {
             		A1++; // Om användaren klickar på Man addera 1 till A1
             		G1 = G1 + Integer.parseInt(JOptionPane.showInputDialog("Hur gammal är mannen?"));          		
@@ -44,7 +44,7 @@ public class aktivitetFinal {
             	
                
                                                                
-        } while (nyPerson == 0);
+        } while (nyPerson == 0); //kör loppen så länge användaren trycker ja på lägg till ny person 
         
         /**Visa på skärmen genomsnittåldern för respektive kategori samt antalet personer i den kategorin*/
         //Männen
